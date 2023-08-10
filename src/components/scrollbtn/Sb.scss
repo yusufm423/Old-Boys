@@ -1,0 +1,16 @@
+
+@import '../../props' ;
+
+#btn-up
+{
+	z-index: 9999 ;
+	top: 90% ;
+	right: 2% ;
+	transition: all ease 0.3s ;
+	background-color: #376d4e !important;
+    color: white !important;
+	&:hover
+	{
+		transform: scale(1.05);
+	}
+}
